@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
           <div className="reason-card">
             <ShieldCheck className="reason-icon" size={48} />
             <h3>100% Genuine Products</h3>
-            <p>We source all our mobiles, electronics, and appliances directly from authorized distributors. Every product comes with an official brand warranty.</p>
+            <p>We source all our smartphones and accessories directly from authorized distributors. Every product comes with an official brand warranty.</p>
           </div>
           <div className="reason-card">
             <ThumbsUp className="reason-icon" size={48} />
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
           <div className="reason-card">
             <PackageCheck className="reason-icon" size={48} />
             <h3>Wide Product Selection</h3>
-            <p>From the latest flagship smartphones to heavy-duty home appliances and elegant furniture, find everything under one roof.</p>
+            <p>From the latest flagship smartphones (Xiaomi, Lenovo) to smartwatches, accessories, and Jio-4G SIMs, find everything under one roof.</p>
           </div>
           <div className="reason-card">
             <HeadphonesIcon className="reason-icon" size={48} />
@@ -37,14 +37,14 @@ const WhyChooseUs = () => {
           <div className="reason-card">
             <Award className="reason-icon" size={48} />
             <h3>After Sales Support</h3>
-            <p>Our relationship doesn't end at the sale. We provide robust after-sales support, installation assistance, and help with warranty claims.</p>
+            <p>Our relationship doesn't end at the sale. We provide robust after-sales support, device setup assistance, and help with warranty claims.</p>
           </div>
         </div>
 
         <div className="trust-banner section">
           <div className="trust-content">
             <h2>Experience the Difference</h2>
-            <p>Visit Afzal Mobile & Electronics Shop today and experience a world-class shopping environment right here in Afzalgarh.</p>
+            <p>Visit Ayra Mobile Shop today and experience a world-class shopping environment right here in Afzalgarh.</p>
           </div>
         </div>
       </div>

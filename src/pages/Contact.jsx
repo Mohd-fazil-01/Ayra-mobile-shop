@@ -18,7 +18,7 @@ const Contact = () => {
                 <MapPin className="info-icon" size={32}/>
                 <div>
                   <h3>Visit Us</h3>
-                  <p>Main Market, Near Clock Tower<br/>Afzalgarh, Uttar Pradesh 246722</p>
+                  <p>Kalagarh Road<br/>Afzalgarh, Bijnor, UP 246722</p>
                 </div>
               </div>
               <div className="info-card">
@@ -32,7 +32,7 @@ const Contact = () => {
                 <Mail className="info-icon" size={32}/>
                 <div>
                   <h3>Email Us</h3>
-                  <p>info@afzalmobile.com<br/>support@afzalmobile.com</p>
+                  <p>contact@ayramobileshop.com<br/>support@ayramobileshop.com</p>
                 </div>
               </div>
               <div className="info-card">

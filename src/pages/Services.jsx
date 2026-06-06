@@ -1,6 +1,6 @@
 import React from 'react';
 import './Services.css';
-import { Smartphone, Monitor, Wrench, Shield, Truck, Settings } from 'lucide-react';
+import { Smartphone, Headphones, Wrench, Shield, Signal, Settings } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -10,19 +10,19 @@ const Services = () => {
       desc: 'Expert guidance on choosing the right smartphone, plus data transfer and initial setup assistance.'
     },
     {
-      icon: <Monitor size={40} />,
-      title: 'Electronics Sales',
-      desc: 'A comprehensive range of TVs, laptops, and home electronics from authorized and trusted brands.'
+      icon: <Headphones size={40} />,
+      title: 'Premium Accessories',
+      desc: 'A comprehensive range of high-quality mobile accessories, covers, chargers, and smartwatches.'
     },
     {
-      icon: <Settings size={40} />,
-      title: 'Home Appliances',
-      desc: 'Guidance and sales for refrigerators, washing machines, and coolers suitable for your home size.'
+      icon: <Signal size={40} />,
+      title: 'Jio-4G SIM Services',
+      desc: 'Authorized dealer for new Jio-4G SIM activations, porting, and instant recharges.'
     },
     {
       icon: <Wrench size={40} />,
-      title: 'Product Installation',
-      desc: 'Professional installation support for ACs, TVs, and large appliances right at your doorstep.'
+      title: 'Mobile Repairs',
+      desc: 'Professional and quick repair services for major smartphone brands directly at our shop.'
     },
     {
       icon: <Shield size={40} />,
@@ -30,9 +30,9 @@ const Services = () => {
       desc: 'Seamless processing of manufacturer warranties and reliable after-sales service support.'
     },
     {
-      icon: <Truck size={40} />,
-      title: 'Delivery Services',
-      desc: 'Safe and prompt delivery of large electronics and furniture directly to your home.'
+      icon: <Settings size={40} />,
+      title: 'Device Configuration',
+      desc: 'Help with software updates, app installations, and resolving software glitches on your mobile.'
     }
   ];
 

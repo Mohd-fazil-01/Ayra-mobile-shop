@@ -6,19 +6,19 @@ const Products = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
   const products = [
-    { id: 1, name: 'Premium Smartphone', category: 'Smartphones', img: '/images/products/smartphone_mockup.png' },
-    { id: 2, name: 'Wireless Earbuds', category: 'Mobile Accessories', img: '/images/products/mobile_accessories.png' },
-    { id: 3, name: 'Business Laptop', category: 'Laptops', img: '/images/products/laptop_premium.png' },
-    { id: 4, name: 'Smart Refrigerator', category: 'Refrigerators', img: '/images/products/refrigerator_modern.png' },
-    { id: 5, name: 'Front-Load Washing Machine', category: 'Washing Machines', img: '/images/products/washing_machine.png' },
-    { id: 6, name: 'Split Air Conditioner', category: 'Air Conditioners', img: '/images/products/air_conditioner.png' },
-    { id: 7, name: 'Desert Air Cooler', category: 'Coolers', img: '/images/products/air_cooler.png' },
-    { id: 8, name: 'OLED Smart TV', category: 'LED TVs', img: '/images/products/led_tv.png' },
-    { id: 9, name: 'Luxury Sofa Set', category: 'Furniture', img: '/images/products/furniture_sofa.png' },
-    { id: 10, name: 'Ceramic Dinnerware Set', category: 'Crockery', img: '/images/products/crockery_set.png' }
+    { id: 1, name: 'Samsung Galaxy S24 Ultra', category: 'Samsung', img: '/images/products/smartphone_mockup.png' },
+    { id: 2, name: 'Apple iPhone 15 Pro Max', category: 'Apple', img: '/images/products/smartphone_mockup.png' },
+    { id: 3, name: 'Xiaomi Redmi Note 13 Pro+', category: 'Xiaomi', img: '/images/products/smartphone_mockup.png' },
+    { id: 4, name: 'Vivo V30 Pro', category: 'Vivo', img: '/images/products/smartphone_mockup.png' },
+    { id: 5, name: 'Oppo Reno 11', category: 'Oppo', img: '/images/products/smartphone_mockup.png' },
+    { id: 6, name: 'Realme 12 Pro', category: 'Realme', img: '/images/products/smartphone_mockup.png' },
+    { id: 7, name: 'OnePlus 12R', category: 'OnePlus', img: '/images/products/smartphone_mockup.png' },
+    { id: 8, name: 'Samsung Galaxy A54', category: 'Samsung', img: '/images/products/smartphone_mockup.png' },
+    { id: 9, name: 'Wireless Earbuds Pro', category: 'Accessories', img: '/images/products/mobile_accessories.png' },
+    { id: 10, name: '65W Fast Charger', category: 'Accessories', img: '/images/products/mobile_accessories.png' }
   ];
 
-  const categories = ['All', 'Smartphones', 'Mobile Accessories', 'Laptops', 'Refrigerators', 'Washing Machines', 'Air Conditioners', 'Coolers', 'LED TVs', 'Furniture', 'Crockery'];
+  const categories = ['All', 'Samsung', 'Apple', 'Xiaomi', 'Vivo', 'Oppo', 'Realme', 'OnePlus', 'Accessories'];
 
   const filteredProducts = activeCategory === 'All' 
     ? products 

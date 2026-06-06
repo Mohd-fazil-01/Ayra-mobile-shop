@@ -11,7 +11,7 @@ const Navbar = ({ theme, toggleTheme }) => {
       <div className="container nav-container">
         <Link to="/" className="brand" onClick={() => setIsOpen(false)}>
           <ShoppingBag className="brand-icon" />
-          <span className="brand-text">Afzal Mobile & Electronics</span>
+          <span className="brand-text">Ayra Mobile Shop</span>
         </Link>
         
         <div className="nav-actions-mobile">

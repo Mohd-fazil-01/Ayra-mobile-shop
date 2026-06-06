@@ -5,16 +5,11 @@ import './Home.css';
 
 const Home = () => {
   const productCategories = [
-    { name: 'Smartphones', img: '/images/products/smartphone_mockup.png' },
-    { name: 'Mobile Accessories', img: '/images/products/mobile_accessories.png' },
-    { name: 'Laptops', img: '/images/products/laptop_premium.png' },
-    { name: 'Air Conditioners', img: '/images/products/air_conditioner.png' },
-    { name: 'Refrigerators', img: '/images/products/refrigerator_modern.png' },
-    { name: 'Washing Machines', img: '/images/products/washing_machine.png' },
-    { name: 'Coolers', img: '/images/products/air_cooler.png' },
-    { name: 'LED TVs', img: '/images/products/led_tv.png' },
-    { name: 'Furniture', img: '/images/products/furniture_sofa.png' },
-    { name: 'Crockery', img: '/images/products/crockery_set.png' }
+    { name: 'Samsung', img: '/images/products/smartphone_mockup.png' },
+    { name: 'Apple', img: '/images/products/smartphone_mockup.png' },
+    { name: 'Xiaomi', img: '/images/products/smartphone_mockup.png' },
+    { name: 'Vivo & Oppo', img: '/images/products/smartphone_mockup.png' },
+    { name: 'Accessories', img: '/images/products/mobile_accessories.png' }
   ];
 
   return (
@@ -22,8 +17,8 @@ const Home = () => {
       {/* 1. HERO SECTION */}
       <section className="hero" style={{ backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url("/images/shop/shop image.jpg")' }}>
         <div className="container hero-content animate-fade-in-up">
-          <h1>Afzal Mobile & Electronics Shop</h1>
-          <p>Your Trusted Destination for Mobiles, Electronics & Home Appliances in Afzalgarh</p>
+          <h1>Ayra Mobile Shop</h1>
+          <p>Your Trusted Destination for Smartphones, Smartwatches & Accessories in Afzalgarh</p>
           <div className="hero-buttons">
             <Link to="/products" className="btn btn-primary">View Products</Link>
             <Link to="/contact" className="btn btn-secondary">Contact Us</Link>
@@ -41,11 +36,11 @@ const Home = () => {
       <section className="section about-preview">
         <div className="container about-grid">
           <div className="about-image">
-            <img src="/images/shop/shop image internal.jpg" alt="Inside Afzal Mobile Shop" />
+            <img src="/images/shop/shop image internal.jpg" alt="Inside Ayra Mobile Shop" />
           </div>
           <div className="about-text">
             <h2>Serving Afzalgarh with Trust & Quality</h2>
-            <p>Welcome to Afzal Mobile & Electronics Shop. We have been the leading destination for all your technology and home needs. From the latest smartphones to essential home appliances, our commitment to quality, genuine brands, and unparalleled customer satisfaction sets us apart.</p>
+            <p>Welcome to Ayra Mobile Shop. We are the leading destination for all your mobile technology needs. From the latest smartphones from top brands like Xiaomi and Lenovo, to high-quality accessories and Jio-4G SIM services, our commitment to genuine products and unparalleled customer satisfaction sets us apart.</p>
             <Link to="/about" className="btn btn-primary">Read More <ArrowRight size={18} style={{marginLeft: '8px'}}/></Link>
           </div>
         </div>
