@@ -1,0 +1,141 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: var(--surface-color);
+  box-shadow: var(--shadow);
+  z-index: 1000;
+  padding: 1rem 0;
+  transition: background-color 0.3s ease;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--primary);
+}
+
+.brand-text {
+  display: none;
+}
+
+@media (min-width: 375px) {
+  .brand-text {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .brand {
+    font-size: 1.25rem;
+  }
+}
+
+.nav-actions-mobile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-btn {
+  color: var(--text-primary);
+}
+
+.theme-toggle {
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: var(--bg-color);
+  transition: all 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.desktop-toggle {
+  display: none;
+}
+
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  max-width: 300px;
+  height: 100vh;
+  background-color: var(--surface-color);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 2rem 2rem;
+  transition: left 0.3s ease-in-out;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nav-list a {
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-list a:hover {
+  color: var(--primary);
+}
+
+@media (min-width: 1024px) {
+  .menu-btn {
+    display: none;
+  }
+  
+  .nav-actions-mobile {
+    display: none;
+  }
+
+  .desktop-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: static;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    max-width: none;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .nav-list {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  
+  .nav-list a {
+    font-size: 1rem;
+  }
+}
